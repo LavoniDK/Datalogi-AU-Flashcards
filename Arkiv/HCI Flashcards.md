@@ -17,7 +17,7 @@ ___
 <!--SR:!2025-03-10,44,304-->
 
 - **What are anchor tags in HTML used for?** :: Anchor tags (`<a>`) are used to create hyperlinks that link to other webpages or resources.
-<!--SR:!2025-02-02,11,271-->
+<!--SR:!2025-03-15,41,291-->
 
 - **What is the difference between an inline and block tag?** :: Inline tags do not break the flow of content and only take up as much width as needed (e.g., `<span>`, `<a>`). Block tags start on a new line and take up the full width of their container (e.g., `<div>`, `<p>`).
 <!--SR:!2025-02-14,27,284-->
@@ -31,7 +31,7 @@ Types of CSS selectors include:
   - **ID (`#idName`)**: Selects a single element by ID.
   - **Attribute (`[attr=value]`)**: Selects elements with specific attributes.
   They differ in specificity and use cases.
-<!--SR:!2025-02-06,19,264-->
+<!--SR:!2025-03-28,50,264-->
 
 - **How do rules in CSS cascade?**
 ?
@@ -39,7 +39,7 @@ CSS rules cascade based on:
   1. **Importance** (`!important` overrides all).
   2. **Specificity** (ID > class > type selectors).
   3. **Source order** (later rules override earlier ones if they have the same specificity).
-<!--SR:!2025-02-05,18,264-->
+<!--SR:!2025-03-24,47,264-->
 
 - **Explain the box model of CSS**
 ?
@@ -91,10 +91,10 @@ Control-display (C-D) gain refers to the ratio between the physical movement of 
 <!--SR:!2025-02-16,25,266-->
 
 - **What are _degrees of freedom_?** :: Degrees of freedom (DOF) refer to the number of independent movements an input device can detect. For example, a mouse has 2 DOF (x, y axes), while a 3D controller may have up to 6 DOF (x, y, z axes + pitch, yaw, roll).
-<!--SR:!2025-02-03,16,246-->
+<!--SR:!2025-03-30,55,266-->
 
 - **What is _controller resistance_** :: Controller resistance describes how much force is required to operate an input device. Types of resistance include static resistance (initial force required to move) and dynamic resistance (force during movement).
-<!--SR:!2025-02-06,19,268-->
+<!--SR:!2025-04-18,71,288-->
 
 - **What is _order of control_?**
 ?
@@ -114,7 +114,7 @@ Order of control refers to how an input affects the display over time:
   4. **Emerging forms**: Mixed reality and holographic displays.
 
 - **What is clutching in HCI?** :: The action of adjusting or repositioning a pointing device to maintain control during interaction. E.g. lifting and centering a mouse when you run out of space on the surface you are operating the mouse on.
-<!--SR:!2025-01-31,11,286-->
+<!--SR:!2025-03-16,44,306-->
 
 ## Week 36: JavaScript (B)
 
@@ -162,7 +162,7 @@ Direct manipulation refers to interacting with digital objects as if they were p
 <!--SR:!2025-03-04,41,304-->
 
 - **What’s the considerations when designing interaction techniques?** :: Key considerations include usability, learnability, efficiency, error prevention, and compatibility with the user’s physical and cognitive capabilities.
-<!--SR:!2025-02-03,12,244-->
+<!--SR:!2025-03-14,39,264-->
 
 - **What’s the considerations when evaluating interaction techniques?** :: Evaluation considerations include task performance (speed and accuracy), user satisfaction, error rates, and the cognitive load imposed by the technique.
 <!--SR:!2025-03-05,35,264-->
@@ -180,7 +180,7 @@ Direct manipulation refers to interacting with digital objects as if they were p
 <!--SR:!2025-03-19,48,307-->
 
 - **What is adaptability in UIs?** ::The capability of a user interface to adjust itself based on user behavior or environmental changes.
-<!--SR:!2025-02-03,12,247-->
+<!--SR:!2025-03-17,42,267-->
 
 ## Week 37: DOM and Events (B)
 
@@ -251,7 +251,7 @@ Common types of errors include:
   1. **Prevent errors**: Design systems that prevent users from making errors.
   2. **Simplify recovery**: Make it easy for users to recover from errors.
   3. **Maintain consistency**: Ensure consistency across interactions to reduce cognitive load.
-<!--SR:!2025-02-03,6,159-->
+<!--SR:!2025-02-16,13,179-->
 
 - **What types of theories are there?**
 ?
@@ -355,7 +355,7 @@ The levels include:
 <!--SR:!2025-02-09,15,294-->
 
 - **What is the egocentric fallacy?** :: The egocentric fallacy is the tendency to assume that others share one's own perspectives, beliefs, or experiences.
-<!--SR:!2025-02-02,11,274-->
+<!--SR:!2025-03-17,43,294-->
 
 
 - **What is a _heuristic evaluation_?** :: A heuristic evaluation is an expert review of a system’s interface based on established usability principles or heuristics, identifying potential usability problems without involving real users.
@@ -371,13 +371,13 @@ The levels include:
 ?
   - **Formative evaluations**: Conducted during the design process to identify and address issues early.
   - **Summative evaluations**: Conducted after development to assess the system’s overall effectiveness and performance.
-<!--SR:!2025-02-03,13,240-->
+<!--SR:!2025-03-20,45,260-->
 
 - **What are the difference between quantitative and qualitative evaluations?**
 ?
   - **Quantitative evaluations**: Measure objective metrics (e.g., task completion time, error rates) and provide numerical data for statistical analysis.
   - **Qualitative evaluations**: Collect subjective feedback (e.g., user opinions, observations) and provide insights into user experiences and preferences.
-<!--SR:!2025-02-05,18,260-->
+<!--SR:!2025-03-23,46,260-->
 
 - **What are the difference between analytical and empirical evaluations?**
 ?
@@ -389,29 +389,13 @@ The levels include:
 ?
 - **Pilot studies**: Small-scale tests to refine methods and tools.
 - **Deployment studies**: Full-scale implementations in real-world contexts to validate findings.
-<!--SR:!2025-02-02,11,274-->
+<!--SR:!2025-03-16,42,294-->
 
 - **What is the difference between confirmatory and exploratory research questions?**
 ?
 - **Confirmatory questions**: Test specific hypotheses or predictions.
 - **Exploratory questions**: Seek to uncover new patterns or insights without predefined expectations.
-<!--SR:!2025-02-03,12,274-->
-
-## Week 40: CSS Frameworks (B)
-
-- **What are CSS frameworks and what are the pros and cons of using a CSS framework?**
-?
-  CSS frameworks are pre-built libraries that provide reusable classes, components, and grid systems to simplify web design.
-  **Pros**:
-  - Speeds up development.
-  - Ensures consistency in design.
-  - Provides cross-browser compatibility.
-  - Includes responsive design features by default.
-  **Cons**:
-  - Adds extra overhead if only a few features are needed.
-  - May result in less customized designs.
-  - Requires learning the framework's syntax and structure.
-<!--SR:!2025-02-07,19,260-->
+<!--SR:!2025-03-08,33,274-->
 
 
 ____
@@ -436,10 +420,10 @@ The main constituents of an experiment include:
   3. **Participants**: The users involved in the experiment.
   4. **Procedure**: Detailed steps for conducting the experiment.
   5. **Metrics**: Measurements collected during the study.
-<!--SR:!2025-02-06,19,262-->
+<!--SR:!2025-04-17,70,282-->
 
 - **What’s the role of the hypothesis and how is it formulated?** :: The hypothesis states the expected relationship between variables. It is formulated based on prior knowledge or theory and should be specific, measurable, and testable (e.g., "Increasing font size will reduce reading errors").
-<!--SR:!2025-02-07,18,242-->
+<!--SR:!2025-04-09,61,262-->
 
 - **What’s independent and dependent variables?**
 ?
@@ -451,7 +435,7 @@ The main constituents of an experiment include:
 <!--SR:!2025-02-12,24,280-->
 
 - **How are participants chosen?** :: Participants are chosen to represent the target user population. Selection methods include random sampling and stratified sampling to ensure diversity and reduce bias. 10-20 participants are usually chosen for HCI studies, although between-subject experiments require significantly more participants for getting solid results.
-<!--SR:!2025-02-02,5,222-->
+<!--SR:!2025-02-18,16,242-->
 
 - **How are results from experiments analysed?** :: Results are analyzed using statistical methods to determine whether changes in the independent variable caused significant effects on the dependent variable. This includes descriptive statistics, hypothesis testing, and confidence intervals.
 <!--SR:!2025-02-16,25,260-->
@@ -468,13 +452,13 @@ The main constituents of an experiment include:
 ## Week 41: JS for Desktop Apps (B)
 
 - **How can JavaScript be used to develop desktop applications?** :: JavaScript can be used to develop desktop applications using frameworks like Electron, which allow developers to create cross-platform apps by combining web technologies (HTML, CSS, JS) in a chromium-based browser window, with Node.js for system-level functionality.
-<!--SR:!2025-02-05,18,262-->
+<!--SR:!2025-04-12,66,282-->
 
 - **What is the difference between running JavaScript in the browser and with Electron?** :: In the browser, JavaScript runs in a sandboxed environment with limited access to system resources. In Electron, JavaScript runs alongside Node.js, enabling direct access to the file system, OS APIs, and other system-level features.
-<!--SR:!2025-02-05,16,244-->
+<!--SR:!2025-04-01,55,264-->
 
 - **How is the interplay between Node.js and Electron in the creation of desktop apps with JavaScript?** :: Electron uses Chromium to render the front-end (HTML, CSS, JS) and Node.js to handle backend processes, enabling a seamless combination of UI and system-level functionality. The main process handles application-level operations, while renderer processes manage UI rendering and interactions.
-<!--SR:!2025-02-02,15,242-->
+<!--SR:!2025-03-25,51,262-->
 
 
 ____
@@ -490,9 +474,6 @@ ____
 
 - **What does the human sensor system consist of?** :: The human sensor system includes vision, hearing, touch, smell, and taste. In HCI, vision, hearing, and touch are most relevant for interacting with digital interfaces.
 <!--SR:!2025-03-02,39,303-->
-
-- **How does the basics of the eye work?** :: The eye works by focusing light onto the retina, where photoreceptors (rods and cones) detect light and color. Signals are then transmitted to the brain via the optic nerve for interpretation.
-<!--SR:!2025-02-01,10,241-->
 
 - **What are the three central motor tasks?**
 ?
@@ -511,16 +492,13 @@ Reaction types include:
   1. **Simple reactions**: Responding to a single stimulus.
   2. **Choice reactions**: Choosing between multiple responses based on the stimulus.
   3. **Complex reactions**: Involving multiple stimuli and responses.
-<!--SR:!2025-02-01,11,203-->
+<!--SR:!2025-02-23,22,203-->
 
 - **What does the Ratcliff model explain?** :: The Ratcliff model explains decision-making in tasks that require speed and accuracy. It models how information accumulates over time until a decision threshold is reached.
-<!--SR:!2025-02-01,13,243-->
+<!--SR:!2025-03-05,32,243-->
 
 - **What does the Hick-Hyman law express?** :: The Hick-Hyman law states that the time it takes to make a decision increases logarithmically with the number of choices. It is relevant for interface design by emphasizing the need to reduce unnecessary options.
 <!--SR:!2025-03-03,37,281-->
-
-- **What are the elementary cognitive abilities?** :: Elementary cognitive abilities include perception, attention, memory, learning, and decision-making. These abilities govern how users interact with systems.
-<!--SR:!2025-02-04,10,203-->
 
 - **What is cognitive control?** :: Cognitive control refers to the ability to regulate attention, manage tasks, and inhibit distractions. It is crucial in complex or multi-step interactions.
 <!--SR:!2025-02-15,19,220-->
@@ -548,7 +526,7 @@ Reaction types include:
 <!--SR:!2025-02-12,25,283-->
 
 - **How can insights about cognition be applied to HCI?** :: Insights about cognition help designers create interfaces that match users’ mental models, reduce cognitive load, and improve learnability and usability.
-<!--SR:!2025-02-06,17,240-->
+<!--SR:!2025-03-21,43,240-->
 
 - **What does it means to view the human as an information processor?** :: Viewing humans as information processors means considering users as systems that receive input, process it, and produce output. This model helps in understanding user interaction and designing efficient interfaces.
 <!--SR:!2025-02-15,27,283-->
@@ -562,15 +540,8 @@ The model human processor (MHP) is a framework that models human interaction as 
   MHP can be used to predict user performance and guide interface design.
 <!--SR:!2025-02-11,21,241-->
 
-- **What are the performance of our perceptual, cognitive and motor system according to MHP?**
-?
-  - **Perceptual system**: Processes inputs at a rate of about 100ms per cycle.
-  - **Cognitive system**: Decision-making takes about 70ms per step.
-  - **Motor system**: Reaction time for physical actions is approximately 70ms.
-<!--SR:!2025-01-31,13,241-->
-
 - **What is perceptual memory in MHP?** :: Perceptual memory acts as a buffer for sensor data, holding information briefly as it is processed.
-<!--SR:!2025-02-03,7,274-->
+<!--SR:!2025-03-02,27,294-->
 
 - **What are the limitations of MHP?** :: MHP assumes a linear and sequential process, which may oversimplify real-world interactions. It also doesn’t account for emotional and social factors.
 <!--SR:!2025-02-14,25,261-->
@@ -581,25 +552,25 @@ The recognize-act cycle involves:
 - Recognition: A highly parallel process for interpreting stimuli.
 - Act: A serial process for decision-making and response.
 - **(extra): Uncertainty Principle**: Decision time increases with uncertainty about judgments, requiring more cognitive cycles. Cycle time shortens with practice or increased effort.
-<!--SR:!2025-01-31,9,254-->
+<!--SR:!2025-02-23,23,254-->
 
 - **What is the motor system in MHP?** :: The motor system in MHP translates thought into physical actions, with cycle time diminishing with practice or task-specific effort.
-<!--SR:!2025-02-05,11,274-->
+<!--SR:!2025-03-19,42,294-->
 
 - **How are needs and motivations relevant to HCI?** :: Needs and motivations influence user behavior, goal setting, and engagement. Designing systems that address users’ intrinsic and extrinsic motivations improves user satisfaction and long-term usage.
-<!--SR:!2025-02-04,17,259-->
+<!--SR:!2025-03-22,46,259-->
 
 - **What is self-determination theory, its assumptions and basic ideas?** :: Self-determination theory (SDT) posits that humans have three basic psychological needs: autonomy, competence, and relatedness. Fulfillment of these needs leads to intrinsic motivation, which is key to sustained user engagement.
-<!--SR:!2025-02-02,13,201-->
+<!--SR:!2025-02-27,25,201-->
 
 - **What is the perceptual task of detection?** :: The process of noticing the presence of a stimulus.
 <!--SR:!2025-02-16,22,267-->
 
 - **What is the perceptual task of discrimination?** :: The ability to distinguish between different stimuli.
-<!--SR:!2025-01-31,10,227-->
+<!--SR:!2025-02-24,24,227-->
 
 - **What is the perceptual task of recognition?** :: Identifying a stimulus as something familiar.
-<!--SR:!2025-02-03,12,247-->
+<!--SR:!2025-03-18,43,267-->
 
 - **What is the perceptual task of search?** :: The task of locating a particular stimulus among several.
 <!--SR:!2025-02-08,17,267-->
@@ -610,7 +581,7 @@ The recognize-act cycle involves:
 ## Additional Questions on Gestalt Principles (A)
 
 - **What are Gestalt principles in HCI, and why are they important?** :: Gestalt principles are psychological theories explaining how humans naturally group visual elements based on patterns and relationships. They are important in HCI because they help designers create intuitive interfaces by aligning with users' natural perceptual tendencies.
-<!--SR:!2025-02-06,19,261-->
+<!--SR:!2025-04-16,69,281-->
 
 - **How does the principle of proximity influence interface design?** :: The principle of proximity states that elements close to each other are perceived as related. In interface design, grouping related controls or information reduces cognitive load and improves user comprehension.
 <!--SR:!2025-02-09,19,261-->
@@ -618,14 +589,8 @@ The recognize-act cycle involves:
 - **What is the principle of similarity, and how can it improve user experience?** :: The principle of similarity suggests that elements with similar characteristics (e.g., color, shape, size) are perceived as related. This principle helps users quickly identify and understand patterns, improving the consistency and clarity of an interface.
 <!--SR:!2025-02-27,33,283-->
 
-- **What is the principle of continuity, and how is it applied in GUIs?** :: The principle of continuity states that users prefer continuous, smooth paths and patterns. In GUIs, it can be applied by aligning elements along consistent lines or curves, guiding users' attention and making navigation easier.
-<!--SR:!2025-01-31,12,241-->
-
 - **What is the principle of figure-ground, and how can it enhance visual clarity?** :: The principle of figure-ground explains how people distinguish a foreground object from its background. Enhancing visual clarity involves ensuring sufficient contrast between key elements (figure) and the background, improving readability and focus.
 <!--SR:!2025-02-15,24,259-->
-
-- **What are common design mistakes that violate Gestalt principles?** :: Common mistakes include inconsistent grouping (violating proximity), using too many dissimilar styles (violating similarity), misaligned elements (violating continuity), poor contrast (violating figure-ground), and chaotic layouts that reduce visual clarity.
-<!--SR:!2025-02-04,14,221-->
 
 - **What role does the principle of common fate play in dynamic interfaces?** :: The principle of common fate states that elements moving together are perceived as related. In dynamic interfaces, it is used to group elements through synchronized animations, such as buttons that slide together or lists that expand uniformly.
 <!--SR:!2025-03-11,45,303-->
@@ -642,9 +607,6 @@ ___
 - **Why was activity theory brought into HCI?** :: Activity theory was introduced into HCI to address limitations of early cognitive models by emphasizing real-world contexts, user goals, and tool-mediated interactions. It provides a holistic approach to understanding how technology fits into users' workflows and social environments
 <!--SR:!2025-02-11,24,279-->
 
-- **What does activity theory provide means to explain?** :: Activity theory provides a means to explain how tools mediate human action, how user activities evolve over time, and how social, cultural, and environmental factors influence interaction.
-<!--SR:!2025-02-01,14,239-->
-
 - **What are the fundamental principles of activity theory?**
 ?
   1. **Object-orientedness**: Activities are driven by goals or objects.
@@ -652,7 +614,7 @@ ___
   3. **Hierarchical structure**: Activities are organized into activities, actions, and operations.
   4. **Internalization and externalization**: Interaction involves transforming internal thought into external actions and vice versa.
   5. **Contradictions**: Development arises from resolving tensions or contradictions in activity systems.
-<!--SR:!2025-02-02,5,182-->
+<!--SR:!2025-02-10,8,182-->
 
 - **How is the hierarchical structure of activity explained?**
 ?
@@ -663,7 +625,7 @@ Activities are structured in a hierarchy:
 <!--SR:!2025-02-14,27,282-->
 
 - **What is the concept of mediation in activity theory?** :: Mediation refers to the use of tools (both physical and symbolic) in human activities. Tools shape how people interact with the world, and in turn, those interactions influence the evolution of the tools.
-<!--SR:!2025-02-04,17,259-->
+<!--SR:!2025-03-21,45,259-->
 
 - **What are the principles of internalization and externalization in activity theory?**
 ?
@@ -726,7 +688,7 @@ Activities are structured in a hierarchy:
 <!--SR:!2025-02-10,16,293-->
 
 - **What is a rule-producing activity?** :: A rule-producing activity involves the creation of norms, guidelines, or procedures that govern actions within a community or organization.
-<!--SR:!2025-02-04,10,273-->
+<!--SR:!2025-03-13,37,293-->
 
 ___
 
@@ -734,7 +696,7 @@ ___
 ## Week 45: Universal Usability (A)
 
 - **What is universal usability?** :: Universal usability refers to the design of interfaces that can be effectively used by the widest possible range of people, regardless of their abilities, age, experience, or cultural background. The goal is to make technology accessible to everyone, including those with disabilities.
-<!--SR:!2025-02-05,17,262-->
+<!--SR:!2025-04-08,62,282-->
 
 - **What broad categories of disabilities are there?**
 ?
@@ -764,7 +726,7 @@ Writing accessible HTML involves:
   3. Ensuring sufficient contrast between text and background.
   4. Using labels for form elements (`<label>` tags).
   5. Ensuring keyboard navigability by using logical tab orders and focus indicators.
-<!--SR:!2025-02-07,18,244-->
+<!--SR:!2025-04-10,62,264-->
 
 - **What is WAI-ARIA and when is it used?** :: **WAI-ARIA is an accessibility standard** developed by the **W3C** to enhance web accessibility. It provides a framework for developers to ensure that web applications, especially complex and dynamic ones, are accessible to users with disabilities who rely on assistive technologies, such as screen readers.
 <!--SR:!2025-02-12,23,259-->
@@ -840,7 +802,7 @@ ____
 <!--SR:!2025-02-13,26,284-->
 
 - **When was the Web invented and for what?** :: The Web was invented by Tim Berners-Lee in 1989 at CERN. It was created to facilitate information sharing among researchers via a system of interconnected hypertext documents.
-<!--SR:!2025-02-06,16,224-->
+<!--SR:!2025-03-29,51,244-->
 
 - **What kind of phases can interaction with computers be characterized by?**
 ?
@@ -856,13 +818,13 @@ Interaction with computers can be characterized by the following phases:
 ## Additional Questions on the History of Interactive Computing (Week 47)
 
 - **What is Vannevar Bush’s vision in "As We May Think" and how did it influence modern computing?** :: In "As We May Think" (1945), Vannevar Bush envisioned a device called the **Memex**, which would allow users to store and retrieve information via associative links, resembling modern hypertext systems. His ideas influenced the development of interactive computing by inspiring concepts like hypertext, personal information systems, and knowledge management.
-<!--SR:!2025-02-01,5,181-->
+<!--SR:!2025-02-15,14,201-->
 
 - **What were the key contributions of Alan Kay to personal computing?** :: Alan Kay played a crucial role in developing the concept of the **Dynabook**, an early vision of a personal portable computer designed for learning and creativity. He also contributed to the development of **object-oriented programming**, **graphical user interfaces**, and **Smalltalk**, a pioneering programming environment at Xerox PARC.
 <!--SR:!2025-02-15,19,201-->
 
 - **How did Myer’s article characterize the evolution of HCI technology?** :: Myer’s article outlines the evolution of HCI in stages, starting from **batch processing systems**, moving through **command-line interfaces**, and finally arriving at **graphical user interfaces (GUIs)**. He highlights key technological milestones and innovations that transformed user interaction, such as windows, icons, and pointing devices.
-<!--SR:!2025-02-04,14,221-->
+<!--SR:!2025-03-07,31,221-->
 
 - **What innovations were introduced at Xerox PARC, and how did they shape modern computing?**
 ?
@@ -870,10 +832,10 @@ Xerox PARC introduced several groundbreaking innovations, including:
   1. The **mouse** as a pointing device.
   2. The **WIMP paradigm** (Windows, Icons, Menus, Pointer).
   3. **Ethernet** for local networking.
-<!--SR:!2025-02-05,11,273-->
+<!--SR:!2025-03-20,43,293-->
 
 - **Which system is considered the earliest ancestor of modern graphical user interfaces?** :: Ivan Sutherland's Sketchpad is considered the earliest ancestor of modern graphical user interfaces.
-<!--SR:!2025-01-31,3,254-->
+<!--SR:!2025-02-11,11,274-->
 
 ___
 <!--SR:!2025-01-20,7,241-->
@@ -889,7 +851,7 @@ ___
 <!--SR:!2025-02-17,26,260-->
 
 - **What is the canvas element and what is it used for?** :: The `<canvas>` element is an HTML element that provides a drawable region for dynamic, scriptable rendering of 2D and 3D graphics using JavaScript. It is commonly used for games, data visualizations, and custom graphic interfaces.
-<!--SR:!2025-02-05,16,240-->
+<!--SR:!2025-03-31,54,260-->
 
 - **How can the canvas element be used for 3D graphics?** :: The `<canvas>` element can be used for 3D graphics by employing WebGL, a JavaScript API for rendering interactive 3D content. While `<canvas>` provides the drawable region, WebGL handles low-level 3D rendering by interfacing with the GPU to draw 3D shapes, apply textures, and handle lighting. Libraries like **Three.js** simplify WebGL usage by providing higher-level abstractions for common 3D operations.
 <!--SR:!2025-02-11,21,240-->
@@ -919,7 +881,7 @@ UCD is an iterative design process that focuses on understanding user needs at e
 <!--SR:!2025-02-23,27,259-->
 
 - **How does activity theory differ from cognitive theories in HCI?** :: While cognitive theories focus on individual mental processes, activity theory emphasizes the social, cultural, and contextual factors that shape human interaction. Activity theory views actions as part of larger goal-directed activities mediated by tools, whereas cognitive theories often model isolated tasks.
-<!--SR:!2025-02-06,18,259-->
+<!--SR:!2025-03-26,48,259-->
 
 - **What are pre-attentive attributes in data visualization, and why are they important?** :: Pre-attentive attributes are visual properties that the human brain processes quickly and automatically before conscious attention is required. Examples include color, shape, size, and orientation. They are important because they help users quickly identify patterns and key data points.
 <!--SR:!2025-02-12,23,262-->
@@ -940,7 +902,7 @@ A mode error occurs when a user performs an action appropriate to one mode while
 <!--SR:!2025-02-15,24,259-->
 
 - **What is the importance of accessibility in modern interface design?** :: Accessibility ensures that interfaces can be used by people with a wide range of abilities, improving inclusivity. It also enhances usability for all users and is often a legal requirement. Accessible design leads to better user experiences and broader adoption of products.
-<!--SR:!2025-02-04,17,259-->
+<!--SR:!2025-04-07,62,279-->
 
 - **What are the key challenges in designing for multiple devices and platforms?** :: Key challenges include ensuring consistency across devices, optimizing for different screen sizes and input methods, maintaining performance, and providing a seamless user experience. Responsive design and progressive enhancement are common strategies for addressing these challenges.
 <!--SR:!2025-03-18,47,264-->
