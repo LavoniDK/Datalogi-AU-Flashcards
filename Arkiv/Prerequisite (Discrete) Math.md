@@ -8,7 +8,7 @@ What is a logical proposition?
 - A logical proposition (or statement) is a declarative sentence that is either true or false, but not both.
 - Often written with variables $p,q,r$ in statements like $(p\land q)\Rightarrow q$ , which can either be true or false.
 - Often truth tables is used
-<!--SR:!2025-02-17,15,290-->
+<!--SR:!2025-04-18,60,310-->
 
 What is a logical predicate?
 ?
@@ -17,7 +17,7 @@ What is a logical predicate?
 - **Examples:**
 	  - $P(x)= x > 5$ (Predicate indicating whether $x$ is greater than 5)
 	  - $Q(x, y)= x < y$ (Predicate indicating whether $x$ is less than $y$)
-<!--SR:!2025-02-16,14,294-->
+<!--SR:!2025-04-14,57,314-->
 
 Explain what the following logic symbols represent $\neg,\land,\lor,\Rightarrow,\Leftrightarrow,\forall,\exists$:
 ?
@@ -56,7 +56,7 @@ In proofs, particularly in existential proofs and computational complexity, a ==
 How do you do proof by inference?
 ?
 To do a proof by inference, you need to show that a statement leads to a tautology and thus is true.
-<!--SR:!2025-02-17,15,307-->
+<!--SR:!2025-04-22,64,327-->
 
 **How do you do indirect proofs/proof by contradiction (Reduction ad Absurdum)**
 ?
@@ -66,7 +66,7 @@ To do a proof by inference, you need to show that a statement leads to a tautolo
 **According to Jakob, what is a good approach to proving something that is so obviously true that it is hard to imagine a proof?**
 ?
 - To construct a proof by contradiction. It should be easy to show why the opposite is not true.
-<!--SR:!2025-02-16,14,298-->
+<!--SR:!2025-04-16,58,318-->
 
 ## Set theory
 
@@ -84,7 +84,7 @@ To do a proof by inference, you need to show that a statement leads to a tautolo
 - Distributive:
 	- $A \cap (B \cup C)  = (A \cap B) \cup (A \cap C)$
 	- $A \cup (B \cap C)  = (A \cup B) \cap (A \cup C)$
-<!--SR:!2025-02-10,7,262-->
+<!--SR:!2025-03-08,26,282-->
 
 Explain De Morgan’s laws:
 ?
@@ -93,7 +93,7 @@ Explain De Morgan’s laws:
 		$(A \cup B)^c = A^c \cap B^c$
 	2. The complement of the intersection of two sets:
 	    $(A \cap B)^c = A^c \cup B^c$
-<!--SR:!2025-02-17,14,292-->
+<!--SR:!2025-04-17,59,312-->
 
 **What is the characteristic function?**
 ?
@@ -134,7 +134,7 @@ What are different ways to interpret functions?
 - **Transformation:** Functions can be interpreted as transformations that change or move elements from one space to another.
 - **A specific type of relation:** Functions are special relations where each input is related to exactly one output.
 - **Input-output:** A function can also be viewed as a process that takes an input and produces an output based on a given rule or formula.
-<!--SR:!2025-02-09,8,268-->
+<!--SR:!2025-03-11,30,288-->
 
 What is the formal definition of a function?
 ?
@@ -142,7 +142,7 @@ A function is a relation between two sets that assigns exactly one element from 
 <!--SR:!2025-02-20,18,318-->
 
 **What characterizes total functions?** :: A total function from set $A$ to set $B$ is a relation where each element in $A$ is related to exactly one element in $B$. Mathematically, this means that for all $a \in A$, there exists a unique $b \in B$ such that $f(a) = b$. A partial function from $A$ to $B$ is also a relation, but it does not need to define a value for every element in $A$; that is, there may be some elements in $A$ for which the function is not defined.
-<!--SR:!2025-02-12,11,294-->
+<!--SR:!2025-03-29,45,314-->
 
 **What characterizes injective functions?**:: A function is injective if each element in the codomain has at most one element from the domain mapping to it.
 <!--SR:!2025-02-18,16,314-->
@@ -156,13 +156,13 @@ A function is a relation between two sets that assigns exactly one element from 
 What is an inverse function, and when is a function invertible?
 ?
 An inverse function is a function that "undoes" the effect of the original function. A function is invertible if it is injective (so that each value in the codomain has only one corresponding value in the domain) and if there exists a function that, when composed with the original function, gives the identity function for all elements in the domain.
-<!--SR:!2025-02-13,12,294-->
+<!--SR:!2025-04-05,48,314-->
 
 Can you define the identity function?
 ?
 The identity function, often denoted as $I$ or $1$, is a function where the value of $I(x)$ is always equal to $x$. For each set $A$, the identity function maps each element to itself:
 $$I_{A}:A\rightarrow A\space where \space I_A(x)=x,\space \forall x\in A$$
-<!--SR:!2025-02-14,12,293-->
+<!--SR:!2025-03-24,36,293-->
 
 What are composite Functions?
 ?
@@ -189,19 +189,19 @@ A partial function $f:X\hookrightarrow Y$ from $X$ to $Y$ is a function $f:X'\ri
   \end{cases}$$
 	- **Extending Multiple Values**:
 		- To extend a function with multiple mappings simultaneously, brackets can be collapsed. Extensions are read left-to-right.  Example: $$f [a \mapsto b, c \mapsto d] \equiv f [a \mapsto b][c \mapsto d].$$
-<!--SR:!2025-02-14,12,288-->
+<!--SR:!2025-04-05,48,308-->
 
 
 What are function spaces?
 ?
 A function space is a collection of functions between two fixed sets.
-<!--SR:!2025-02-07,4,293-->
+<!--SR:!2025-02-25,16,313-->
 
 
 **How do we denote a function $f$, that takes arguments from $A$ and $B$ and returns to $C$?**
 ?
 One way to denote this is as $f: A\times B \rightarrow C$, where the function $f$ takes a pair $(a,b)$ in the Cartesian product $A\times B$ and returns an element from $C$.
-<!--SR:!2025-02-13,12,288--> 
+<!--SR:!2025-04-07,50,308--> 
 
 ## Binary Relations
 
@@ -215,12 +215,12 @@ An ordered pair is a collection of two elements where the order is significant, 
 Explain what the cardinality of a product set is:
 ?
 If $|A| = m$ and $|B| = n$, then the cardinality of their product set is:$$|A×B|=m⋅n=|A|⋅|B|$$
-<!--SR:!2025-02-14,13,298-->
+<!--SR:!2025-04-11,53,318-->
 
 Explain what a partition/quotient set is:
 ?
 A partition of a set is a division of the set into non-overlapping subsets, such that each element of the set belongs to exactly one subset.
-<!--SR:!2025-02-13,12,294-->
+<!--SR:!2025-04-09,51,314-->
 
 Explain how a vector in $\mathbb{R}^2$ relates to the Cartesian product of the real numbers:
 ?
@@ -230,7 +230,7 @@ A vector in $\mathbb{R}^2$ can be represented as an ordered pair $(x,y)$, where 
 What is a relation in a mathematical context, and how is it denoted and understood?
 ?
 A (binary) relation is a set of ordered pairs, typically defined between two sets $A$ and $B$. It expresses a kind of relationship between the elements in these sets. The notation for a relation $R$ is often $a\space R\space b$, where $a$ is from the set $A$ and $b$ is from the set $B$.
-<!--SR:!2025-02-14,13,298-->
+<!--SR:!2025-04-11,53,318-->
 
 What are the four methods for representing relations?
 ?
@@ -261,12 +261,12 @@ How can matrix representation be used to illustrate properties of relations?
 - **Reflexivity**: ==The main diagonal will contain 1's if $R$ is reflexive.==
 - **Symmetry**: ==The matrix will be symmetric around the main diagonal if $R$ is symmetric.==
 - **Antisymmetry**: ==If $aRb$ and $bRa$ implies $a = b$, then for every 1 outside the main diagonal, there will be a matching 0 in the transposed position if $R$ is antisymmetric.==
-<!--SR:!2025-02-19,17,314!2025-02-18,16,314!2025-02-14,12,298-->
+<!--SR:!2025-02-19,17,314!2025-02-18,16,314!2025-04-08,50,318-->
 
 What is equivalence relations?
 ?
 An equivalence relation is a relation that is reflexive, symmetric, and transitive. These properties allow the relation to group elements into sets known as equivalence classes, where each element in a class is equivalent to the other elements in the same class.
-<!--SR:!2025-02-17,15,301-->
+<!--SR:!2025-04-21,63,321-->
 
 How does the concept of partitions of a set relate to the equivalence classes created by an equivalence relation on the same set?
 ?
@@ -282,7 +282,7 @@ How do you perform closures for the different properties?
 - Reflexive closure: ==Add all elements related to themselves to the relation:$$R\cup\{(a,a)∣a∈A\}$$==
 - Symmetric closure:==Add the inverse relation$$R \cup R^{-1}$$==
 - Transitive closure:==The union of all powers of $R$.  $$R^{\infty}$$==
-<!--SR:!2025-02-12,11,294!2025-02-14,11,278!2025-02-18,16,315-->
+<!--SR:!2025-03-28,44,314!2025-04-03,45,298!2025-02-18,16,315-->
 
 
 
@@ -310,7 +310,7 @@ the **inverse relation** $R^{-1}$ is defined as: $R^{-1} = \{ (b, a) \mid (a, b)
 **What is relation compositions?**
 ?
 Composition of relations involves combining two relations, $R$ and $S$, to form a new relation $T$, where if an element $a$ is related to $b$ through $R$ and $b$ is related to $c$ through $S$, then $a$ will be related to $c$ through $T$.
-<!--SR:!2025-02-14,13,298-->
+<!--SR:!2025-04-10,52,318-->
 
 This is often expressed using a circle for function compositions:
 $$(f\circ g)(x)=f(g(x))$$
@@ -333,7 +333,7 @@ Inference rules define logical relationships between premises and conclusions, o
 	$$
 - **Premises**: $Q_1, Q_2, ..., Q_n$ (conditions that must hold).
 - **Conclusion**: $P$ (what can be inferred from the premises).
-<!--SR:!2025-02-11,10,289-->
+<!--SR:!2025-03-12,29,289-->
 
 
 How can inference rules be read...
