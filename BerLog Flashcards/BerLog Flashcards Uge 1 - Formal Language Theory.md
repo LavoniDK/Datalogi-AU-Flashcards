@@ -10,7 +10,7 @@ What does $\Sigma^*$ represent?::$\Sigma^*$ is the set of all strings over the a
 <!--SR:!2025-03-31,47,292-->
 
 What is a finite language?::A finite language is a subset of $\Sigma^*$ containing a finite number of strings.
-<!--SR:!2025-03-01,20,252-->
+<!--SR:!2025-05-13,73,272-->
 
 Define an alphabet ($\Sigma$) and strings.
 ?
@@ -22,7 +22,7 @@ What are the properties of string concatenation?
   - $\Lambda \cdot x = x \cdot \Lambda = x$
   - $|x\cdot y| = |x| + |y|$
   - Associativity: $(x \cdot y)\cdot z = x \cdot (y\cdot z)$
-<!--SR:!2025-02-28,19,252-->
+<!--SR:!2025-04-18,48,252-->
 
 How do we distinguish between an alphabet consisting of Roman letters and an alphabet where symbols are English words?
 ?
@@ -35,19 +35,19 @@ How do we distinguish between an alphabet consisting of Roman letters and an alp
 	 - Strings are sequences of words (e.g., `"hello world"` as `hello, world`).
 	 - Useful for modeling languages at the lexical level (e.g., NLP, phrase structures).
 - **Key distinction:** The atomic units in the alphabet change from individual characters to whole words, affecting how formal languages and automata process strings.
-<!--SR:!2025-02-22,17,315-->
+<!--SR:!2025-05-08,74,335-->
 
 What is a prefix of a string?::A prefix is an initial segment of a string up to some position.
-<!--SR:!2025-02-19,17,300-->
+<!--SR:!2025-05-05,74,320-->
 
 What is a suffix of a string?::A suffix is a final segment of a string starting from some position.
-<!--SR:!2025-02-18,16,300-->
+<!--SR:!2025-04-29,70,320-->
 
 What is a substring of a string $s$?::A substring is any contiguous sequence of characters within $s$.
-<!--SR:!2025-02-18,16,298-->
+<!--SR:!2025-04-28,69,318-->
 
 What is the special property of the null string ($\Lambda$) regarding substrings?::The null string ($\Lambda$) is a prefix, suffix, and substring of any string.
-<!--SR:!2025-02-18,16,299-->
+<!--SR:!2025-04-27,68,319-->
 
 A language is a **==set of strings over an alphabet of symbols==**.
 <!--SR:!2025-03-20,38,290-->
@@ -81,7 +81,7 @@ What are the properties of string repetition?
   - $u^{n+1} = u(u^n)$
   - $u^m u^n = u^{m+n}$
   - $(u^m)^n = u^{mn}$
-<!--SR:!2025-02-18,12,275-->
+<!--SR:!2025-04-05,46,295-->
 
 What are the properties/recursive definition of the occurrence count operation?
 ?
@@ -94,20 +94,20 @@ What is the complement of a language?::The complement of a language $L$ is $L' =
 <!--SR:!2025-04-04,46,315-->
 
 What is language concatenation? :: Language concatenation is the combination of two languages. It includes all combinations of concatenating one element from each language together. $L_1 L_2 = \{xy \mid x \in L_1, y \in L_2\}$.
-<!--SR:!2025-02-20,16,304-->
+<!--SR:!2025-04-30,69,324-->
 
 What is the reverse of a language?::The reverse of a language $L$ is $L^R = \{u^R \mid u \in L\}$.
-<!--SR:!2025-02-22,17,312-->
+<!--SR:!2025-05-10,74,332-->
 
 What is language exponentiation?
 ?
 Exponentiation of a language is repeated concatenation, defined as:
   - $L^0 = \{\Lambda\}$
   - $L^k = L L^{k-1}$
-<!--SR:!2025-02-21,17,305-->
+<!--SR:!2025-04-17,52,305-->
 
 What is the positive closure of a language?::The positive closure (Kleene Star) of a language $L^+$ is $L^+ = \bigcup_{k \geq 1} L^k$, omitting the empty string.
-<!--SR:!2025-02-21,17,304-->
+<!--SR:!2025-04-18,53,304-->
 
 What are the properties of the Kleene star?
 ?
@@ -116,7 +116,7 @@ What are the properties of the Kleene star?
 - if $\Lambda \in L$ then $L^{*}=LL^{*}=L^{+}$
 - $\emptyset^{+}=\emptyset$
 - $\emptyset^{*}=\emptyset^{0}=\{\Lambda\}$
-<!--SR:!2025-03-04,19,255-->
+<!--SR:!2025-05-17,67,275-->
 
 ## Recursive definitions
 
@@ -149,7 +149,7 @@ What is strong induction?::A variation of induction where you assume the propert
 <!--SR:!2025-04-23,65,312-->
 
 Structural induction is ==a generalization of induction, used to prove properties about recursively defined structures==
-<!--SR:!2025-03-10,29,279-->
+<!--SR:!2025-07-03,114,299-->
 
 ## Regular Expression and Languages
 
@@ -162,7 +162,7 @@ The three main operations in regular expressions are:
   - **Union** ($L_1 \cup L_2$): Combines two languages.
   - **Concatenation** ($L_1 L_2$): Joins strings from two languages.
   - **Kleene star** ($L^*$): Allows repetition of strings from a language.
-<!--SR:!2025-02-22,17,312-->
+<!--SR:!2025-05-12,76,332-->
 
 
 What is the recursive definition of regular languages?
@@ -173,17 +173,7 @@ The recursive definition of regular languages states:
     - $\mathcal{L}_1 \cup \mathcal{L}_2$ (union) is regular.
     - $\mathcal{L}_1 \mathcal{L}_2$ (concatenation) is regular.
     - $\mathcal{L}_1^*$ (Kleene star) is regular.
-<!--SR:!2025-03-28,39,304-->
-
-
-What is the basis of regular expressions?
-?
-The basis of regular expressions consists of:
-  - $\emptyset$ (empty set)
-  - $\Lambda$ (empty string)
-  - $a$ for each $a \in \Sigma$ (single-character expressions).
-<!--SR:!2025-02-18,9,295-->
-
+<!--SR:!2025-03-28,39,304--><
 
 What does it mean for two regular expressions to be equivalent?
 ?
@@ -193,7 +183,7 @@ Two regular expressions are equivalent if they define the same language: $$E_1 =
 ## Deterministic Finite Automata
 
 What is a Deterministic Finite Automaton (DFA)?::A DFA is a theoretical model of computation that recognizes regular languages by processing input symbols one at a time and determining acceptance or rejection based on a finite set of states.
-<!--SR:!2025-02-20,16,305-->
+<!--SR:!2025-05-02,71,325-->
 
 
 How is a DFA formally defined?
@@ -204,7 +194,7 @@ A DFA is defined as a 5-tuple $M = (Q, \Sigma, q_0, A, \delta)$, where:
   - $q_0 \in Q$: Initial state.
   - $A \subseteq Q$: Accepting states.
   - $\delta: Q \times \Sigma \to Q$: Transition function.
-<!--SR:!2025-02-22,17,314-->
+<!--SR:!2025-05-08,74,334-->
 
 What is the extended transition function in a DFA?
 ?
@@ -220,7 +210,7 @@ The extended transition function $\delta^*$ defines how a DFA processes an entir
   - For an empty string $\Lambda$, the DFA stays in the same state.
   - For a non-empty string $aw$, it first processes $a$, transitioning to a new state, and then recursively processes the rest of $w$.
   - This allows $\delta^*$ to determine the final state reached after consuming an entire input string.
-<!--SR:!2025-02-22,17,315-->
+<!--SR:!2025-05-12,77,335-->
 
 What is the acceptance condition of a DFA?::A string $w \in \Sigma^*$ is accepted if $\delta^*(q_0, w) \in A$.
 <!--SR:!2025-03-18,31,284-->
@@ -229,6 +219,6 @@ What is an incomplete DFA?::An incomplete DFA is one where the transition functi
 <!--SR:!2025-03-13,28,284-->
 
 How can an incomplete DFA be completed?::An incomplete DFA can be completed by adding an explicit **error state** (trap state) that absorbs all undefined transitions.
-<!--SR:!2025-02-22,17,312-->
+<!--SR:!2025-05-07,73,332-->
 
 

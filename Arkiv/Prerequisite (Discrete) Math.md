@@ -28,30 +28,30 @@ Explain what the following logic symbols represent $\neg,\land,\lor,\Rightarrow,
 - **$\Leftrightarrow$:** Biconditional, "if and only if", true if both propositions have the same truth value.
 - **$\forall$:** Universal quantifier, "for all", indicates that a property applies to all elements in a given set.
 - **$\exists$:** Existential quantifier, "there exists at least one", indicates that there is at least one element in a set for which a property holds.
-<!--SR:!2025-02-19,17,304--> 
+<!--SR:!2025-05-02,71,324--> 
 
 **What does it mean to contrapose an implication?**
 ?
 - To contrapose an implication means to reverse and negate both sides of the implication. If we have an implication "if P, then Q" (noted as $P\Rightarrow Q$), its contrapositive is "if not Q, then not P" (noted as $\neg Q\Rightarrow \neg P$). Logically, an implication and its contrapositive are equivalent; if one is true, then the other is also true.
-<!--SR:!2025-02-18,16,290-->
+<!--SR:!2025-04-25,66,310-->
 
 **What are an antecedent and a consequent?**
 ?
 - The antecedent is the first part of a conditional statement, also known as the "if"-part. It is the condition that leads to the result.
 - The consequent is the second part of a conditional statement, also known as the "then"-part.
-<!--SR:!2025-02-19,17,304-->
+<!--SR:!2025-05-03,72,324-->
 
 **How are tautologies, contradictions, and contingencies interpreted in truth tables?**
 ?
 - A **tautology** is a compound propositional formula that is true regardless of the truth values of the individual propositions. In a truth table, a tautology will always have the value "true" in its final truth value column.
 - A **contradiction** is a formula that is false regardless of the truth values of the individual propositions. In a truth table, a contradiction will always have the value "false" in the final column for truth values.
 - A **contingency** is a compound proposition that can be either true or false, depending on the truth values of the individual propositions. In a truth table, a contingency will have a mix of "true" and "false" in the final truth value column.
-<!--SR:!2025-02-18,16,294-->
+<!--SR:!2025-04-26,67,314-->
 
 #flashcards/DiscreteMath/ProofMethods 
 
 In proofs, particularly in existential proofs and computational complexity, a ==**witness**== is an explicit example or piece of evidence that verifies the truth of a mathematical or logical statement.
-<!--SR:!2025-02-19,17,307-->
+<!--SR:!2025-05-04,73,327-->
 
 How do you do proof by inference?
 ?
@@ -61,7 +61,7 @@ To do a proof by inference, you need to show that a statement leads to a tautolo
 **How do you do indirect proofs/proof by contradiction (Reduction ad Absurdum)**
 ?
 - You aim to show that the negation of a statement is false, which means that the statement itself must be true.
-<!--SR:!2025-02-18,16,311-->
+<!--SR:!2025-04-28,69,331-->
 
 **According to Jakob, what is a good approach to proving something that is so obviously true that it is hard to imagine a proof?**
 ?
@@ -84,7 +84,7 @@ To do a proof by inference, you need to show that a statement leads to a tautolo
 - Distributive:
 	- $A \cap (B \cup C)  = (A \cap B) \cup (A \cap C)$
 	- $A \cup (B \cap C)  = (A \cup B) \cap (A \cup C)$
-<!--SR:!2025-03-08,26,282-->
+<!--SR:!2025-05-23,73,282-->
 
 Explain De Morgan’s laws:
 ?
@@ -98,18 +98,18 @@ Explain De Morgan’s laws:
 **What is the characteristic function?**
 ?
 The characteristic function (also called the indicator function) of a set $A$ is a function that indicates membership in $A$. It is defined as:$$\chi_{A}(x)=\begin{cases} 1, & \text{if } x \in A \\ 0, & \text{if } x \notin A \end{cases}$$
-<!--SR:!2025-02-19,17,311-->
+<!--SR:!2025-05-03,72,331-->
 
 What is the universal set?
 ?
 The universal set, often denoted by $U$, in set theory is the set that contains all the elements relevant to a given discussion or problem. It serves as a comprehensive reference for all possible elements in the particular context and is used to define complementary sets and other set operations.
-<!--SR:!2025-02-18,16,300-->
+<!--SR:!2025-04-26,67,320-->
 
 What is the cardinality of a set $A$, also written as $|A|$?
 ?
 - If $A$ is a finite set, i.e., it contains $n$ elements where $n\in\mathbb{N}$, then $n$ is called the cardinality of $A$, which is written as $|A|=n$.
 - If $A$ is infinite, it is sometimes written as $|A|=\infty$.
-<!--SR:!2025-02-18,16,302-->
+<!--SR:!2025-04-29,70,322-->
     
 
 What is the power set of a set $A$, also written as $\mathcal{P}(A)$ or $2^A$?
@@ -117,12 +117,12 @@ What is the power set of a set $A$, also written as $\mathcal{P}(A)$ or $2^A$?
 The power set is the set consisting of all possible subsets of $A$.
 - For example, if $A={1, 2, 3}$, then $\mathcal{P}(A)=\{\emptyset, \{\{1\}, \{2\}, \{3\}, \{1, 2\}, \{2, 3\}, \{1, 3\}, \{1, 2, 3\}\}$
 - The notation $2^A$ implies that there are $2^n$ elements in the power set: $|\mathcal{P}(A)|=2^{|A|}$.
-<!--SR:!2025-02-19,17,312-->
+<!--SR:!2025-05-04,73,332-->
 
 What is a multiset?
 ?
 - A multiset is a set that, unlike ordinary sets, allows repetitions of elements.
-<!--SR:!2025-02-19,17,312-->
+<!--SR:!2025-05-03,72,332-->
 
 ## Functions
 
@@ -134,24 +134,24 @@ What are different ways to interpret functions?
 - **Transformation:** Functions can be interpreted as transformations that change or move elements from one space to another.
 - **A specific type of relation:** Functions are special relations where each input is related to exactly one output.
 - **Input-output:** A function can also be viewed as a process that takes an input and produces an output based on a given rule or formula.
-<!--SR:!2025-03-11,30,288-->
+<!--SR:!2025-07-09,120,308-->
 
 What is the formal definition of a function?
 ?
 A function is a relation between two sets that assigns exactly one element from the second set (codomain) to each element in the first set (domain).
-<!--SR:!2025-02-20,18,318-->
+<!--SR:!2025-05-10,79,338-->
 
 **What characterizes total functions?** :: A total function from set $A$ to set $B$ is a relation where each element in $A$ is related to exactly one element in $B$. Mathematically, this means that for all $a \in A$, there exists a unique $b \in B$ such that $f(a) = b$. A partial function from $A$ to $B$ is also a relation, but it does not need to define a value for every element in $A$; that is, there may be some elements in $A$ for which the function is not defined.
 <!--SR:!2025-03-29,45,314-->
 
 **What characterizes injective functions?**:: A function is injective if each element in the codomain has at most one element from the domain mapping to it.
-<!--SR:!2025-02-18,16,314-->
+<!--SR:!2025-03-26,25,294-->
 
 **What characterizes surjective functions?** :: A function is surjective if each element in the codomain has at least one element from the domain mapping to it.
-<!--SR:!2025-02-20,18,318-->
+<!--SR:!2025-04-12,41,318-->
 
 **What characterizes bijective functions?** :: A function is bijective if it is both total, injective, and surjective, meaning there is a perfect pairwise correspondence between the domain and the codomain.
-<!--SR:!2025-02-19,16,294-->
+<!--SR:!2025-04-25,64,314-->
 
 What is an inverse function, and when is a function invertible?
 ?
@@ -173,7 +173,7 @@ A composite function is the result of combining two functions such that the outp
 	 - If $f: B \to C$ and $g: A \to B$, then $f \circ g: A \to C$.
 	 - Associativity: $(f \circ g) \circ h = f \circ (g \circ h)$.
 	 - Identity Function: For any function $f$, $f \circ \text{id} = \text{id} \circ f = f$.
-<!--SR:!2025-02-19,17,318-->
+<!--SR:!2025-05-06,75,338-->
 
 What is partial functions?
 ?
@@ -195,7 +195,7 @@ A partial function $f:X\hookrightarrow Y$ from $X$ to $Y$ is a function $f:X'\ri
 What are function spaces?
 ?
 A function space is a collection of functions between two fixed sets.
-<!--SR:!2025-02-25,16,313-->
+<!--SR:!2025-05-04,68,333-->
 
 
 **How do we denote a function $f$, that takes arguments from $A$ and $B$ and returns to $C$?**
@@ -210,7 +210,7 @@ One way to denote this is as $f: A\times B \rightarrow C$, where the function $f
 What are ordered pairs and how do they relate to the Cartesian product?
 ?
 An ordered pair is a collection of two elements where the order is significant, typically denoted as $(a,b)$. It is fundamental in the definition of the Cartesian product, as the Cartesian product of two sets $A$ and $B$, denoted $A \times B$, is the set of all possible ordered pairs formed by taking one element from $A$ and one element from $B$.
-<!--SR:!2025-02-20,18,318-->
+<!--SR:!2025-05-11,80,338-->
 
 Explain what the cardinality of a product set is:
 ?
@@ -225,7 +225,7 @@ A partition of a set is a division of the set into non-overlapping subsets, such
 Explain how a vector in $\mathbb{R}^2$ relates to the Cartesian product of the real numbers:
 ?
 A vector in $\mathbb{R}^2$ can be represented as an ordered pair $(x,y)$, where $(x,y) \in \mathbb{R}^2$. This pair corresponds to an element in the Cartesian product $\mathbb{R} \times \mathbb{R}$, indicating that the vector is a combination of two scalars, representing its components along two dimensions in a coordinate system.
-<!--SR:!2025-02-20,18,318-->
+<!--SR:!2025-05-10,79,338-->
 
 What is a relation in a mathematical context, and how is it denoted and understood?
 ?
@@ -238,14 +238,14 @@ What are the four methods for representing relations?
 - As a subset of the product set $A \times B$, where each ordered pair in the relation is an element of the product set.
 - As a Boolean matrix, where the matrix elements indicate whether there is a relation between the elements (1 for yes, 0 for no).
 - As a directed graph (digraph), especially when $A = B$, where the nodes represent elements in the set, and the edges represent relations between them.
-<!--SR:!2025-02-20,18,318-->
+<!--SR:!2025-05-09,78,338-->
 
 Explain what the domain and range of a relation are:
 ?
 - The **domain** of a relation is the set of all first elements in the ordered pairs, i.e., all $a$ in $A$ that appear in the relation.
 - The **range**, also known as the image or codomain, is the set of all second elements in the ordered pairs, i.e., all $b$ in $B$ that can be related to from $A$ via the relation.
 - These are denoted as $\text{Dom}(R)$ and $\text{Ran}(R)$.
-<!--SR:!2025-02-19,17,315-->
+<!--SR:!2025-05-07,76,335-->
 
 What do reflexive, irreflexive, symmetric, asymmetric, antisymmetric, and transitive properties mean for relations?
 ?
@@ -255,13 +255,13 @@ What do reflexive, irreflexive, symmetric, asymmetric, antisymmetric, and transi
 - An **asymmetric** relation is a relation where if $a$ is related to $b$, then $b$ is not related to $a$.
 - An **antisymmetric** relation is a relation where if $a$ and $b$ are related, and $b$ and $a$ are also related, then $a$ and $b$ must be the same element.
 - A **transitive** relation is a relation where if $a$ is related to $b$, and $b$ is related to $c$, then $a$ is also related to $c$.
-<!--SR:!2025-02-20,18,318-->
+<!--SR:!2025-05-12,81,338-->
 
 How can matrix representation be used to illustrate properties of relations?
 - **Reflexivity**: ==The main diagonal will contain 1's if $R$ is reflexive.==
 - **Symmetry**: ==The matrix will be symmetric around the main diagonal if $R$ is symmetric.==
 - **Antisymmetry**: ==If $aRb$ and $bRa$ implies $a = b$, then for every 1 outside the main diagonal, there will be a matching 0 in the transposed position if $R$ is antisymmetric.==
-<!--SR:!2025-02-19,17,314!2025-02-18,16,314!2025-04-08,50,318-->
+<!--SR:!2025-05-05,74,334!2025-04-29,70,334!2025-04-08,50,318-->
 
 What is equivalence relations?
 ?
@@ -271,18 +271,18 @@ An equivalence relation is a relation that is reflexive, symmetric, and transiti
 How does the concept of partitions of a set relate to the equivalence classes created by an equivalence relation on the same set?
 ?
 When we have an equivalence relation on a set, this relation divides the set into non-overlapping subsets, where each element in a subset is equivalent to the other elements in the same subset. These subsets are called equivalence classes, and the collection of these equivalence classes forms a partition of the original set. The equivalence relation ensures that each element in the set belongs to exactly one equivalence class, fulfilling the definition of a partition.
-<!--SR:!2025-02-20,18,318-->
+<!--SR:!2025-05-13,82,338-->
 
 What is the closure of a relation?
 ?
 The closure of a relation on a set is the smallest relation that both contains the original relation and has a desired property, such as reflexivity, symmetry, or transitivity. This process of adding pairs to the original relation to achieve a closure is also known as "closing" the relation under the specified property.
-<!--SR:!2025-02-20,18,318-->
+<!--SR:!2025-05-11,80,338-->
 
 How do you perform closures for the different properties?
 - Reflexive closure: ==Add all elements related to themselves to the relation:$$R\cup\{(a,a)∣a∈A\}$$==
 - Symmetric closure:==Add the inverse relation$$R \cup R^{-1}$$==
 - Transitive closure:==The union of all powers of $R$.  $$R^{\infty}$$==
-<!--SR:!2025-03-28,44,314!2025-04-03,45,298!2025-02-18,16,315-->
+<!--SR:!2025-03-28,44,314!2025-04-03,45,298!2025-05-02,73,335-->
 
 
 
@@ -293,18 +293,18 @@ $R^n$ represents the **$n$-th power** of a binary relation $R$, defined recursiv
 - $R^{n} = R^{n-1} \circ R\space  for\space n \geq 2,$ where $\circ$ denotes relation composition.
 This means $(a, b) \in R^n$ if there exists a sequence of elements $x_1, x_2, \dots, x_{n-1}$ such that:$$
 ((a, x_1) \in R, \quad (x_1, x_2) \in R, \quad \dots, \quad (x_{n-1}, b) \in R$$
-<!--SR:!2025-02-18,16,317-->
+<!--SR:!2025-04-30,71,337-->
 
 How can $R^n$ be interpreted when displayed in graph form and boolean matrix form?
 ?
 - In **graph** form, $R^n$ contains all pairs where there is a path of length exactly $n$ following the graph of $R$.
 - if $R$ is represented on **boolean matrix** form, $R^{n}$ acquaints to taking the $n$-th power of $M_R$ with respect to boolean matrix multiplication.
-<!--SR:!2025-02-19,17,316-->
+<!--SR:!2025-05-08,77,336-->
 
 What is an the inverse of a binary relation $R\subseteq A\times B$?
 ?
 the **inverse relation** $R^{-1}$ is defined as: $R^{-1} = \{ (b, a) \mid (a, b) \in R \}$
-<!--SR:!2025-02-18,15,295-->
+<!--SR:!2025-04-20,61,315-->
 
 
 **What is relation compositions?**
@@ -320,10 +320,8 @@ $$(f\circ g)(x)=f(g(x))$$
 
 **What is the meaning of the following notation in the context of inference rules?**
 - **Turnstile ($\vdash$)**: ==Separates context/environment from the statement.
-	- Example: $\rho \vdash e \Rightarrow n$ reads "In environment $\rho$, expression $e$ evaluates to $n$."==
 - **Arrow ($\Rightarrow$)**: ==Denotes "evaluates to" or "transforms to" (notation is context-dependent)==.
-<!--SR:!2025-02-19,17,304-->
-
+<!--SR:!2025-05-01,70,324-->
 
 
 **What are inference rules**?
@@ -339,8 +337,8 @@ Inference rules define logical relationships between premises and conclusions, o
 How can inference rules be read...
 - **Top-to-bottom**: =="If $Q_1, Q_2, ..., Q_n$ hold, then $P$ holds." ==
 - **Bottom-to-top**: =="To prove $P$, it suffices to prove $Q_1, Q_2, ..., Q_n$."==
-<!--SR:!2025-02-19,17,309!2025-02-19,17,309-->
+<!--SR:!2025-05-07,76,329!2025-05-06,75,329-->
 
 
 Rules without premises are ==**axioms**== and always hold.
-<!--SR:!2025-02-18,16,309-->
+<!--SR:!2025-04-28,69,329-->

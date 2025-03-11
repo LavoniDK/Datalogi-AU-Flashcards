@@ -11,7 +11,7 @@ ___
 ## Week 35: HTML and CSS (B)
 
 - **What are HTML and CSS, and how is the latter integrated into the former?** :: HTML (HyperText Markup Language) structures content on the web, while CSS (Cascading Style Sheets) styles it. CSS is integrated into HTML using `<style>` tags, inline `style` attributes, or external stylesheets linked via `<link>` elements.
-<!--SR:!2025-03-10,44,304-->
+<!--SR:!2025-07-23,134,304-->
 
 - **What are anchor tags in HTML used for?** :: Anchor tags (`<a>`) are used to create hyperlinks that link to other webpages or resources.
 <!--SR:!2025-03-15,41,291-->
@@ -99,10 +99,10 @@ Order of control refers to how an input affects the display over time:
   1. **Zero-order**: Position control – directly maps input position to output (e.g., mouse).
   2. **First-order**: Rate control – input changes output speed (e.g., joystick).
   3. **Second-order**: Acceleration control – input changes output acceleration.
-<!--SR:!2025-02-19,25,226-->
+<!--SR:!2025-05-08,77,246-->
 
 - **What is the *design space* of input devices?** :: The design space of input devices refers to the range of possible input methods based on factors like degrees of freedom, control type, resistance, and feedback. It helps in systematically exploring device options for different tasks.
-<!--SR:!2025-03-07,41,288-->
+<!--SR:!2025-08-22,164,308-->
 
 - **What different types of displays are there?** ? Types of displays include:  
   1. **Visual displays**: Standard monitors, projectors, augmented reality.  
@@ -144,7 +144,7 @@ Direct manipulation refers to interacting with digital objects as if they were p
 - **Weak Direct Manipulation**: Simple interactions with immediate feedback, such as dragging and dropping files.
 - **Strong Direct Manipulation**: Advanced feedback and control, providing a higher degree of user involvement, like resizing an image with live previews.
 - **Immersive Direct Manipulation**: Fully integrates the user into the environment, such as interacting with 3D objects in virtual reality (VR) systems.
-<!--SR:!2025-02-19,20,251-->
+<!--SR:!2025-05-01,70,271-->
 
 - **What are _interaction tasks_?** :: Interaction tasks are fundamental operations users perform when interacting with a system, such as selecting, pointing, dragging, and typing.
 <!--SR:!2025-04-06,55,264-->
@@ -153,13 +153,13 @@ Direct manipulation refers to interacting with digital objects as if they were p
 <!--SR:!2025-05-22,99,304-->
 
 - **How do interaction task and interaction techniques differ?** :: Interaction tasks describe *what* the user needs to do, while interaction techniques describe *how* the system supports accomplishing those tasks.
-<!--SR:!2025-03-04,41,304-->
+<!--SR:!2025-07-14,125,304-->
 
 - **What’s the considerations when designing interaction techniques?** :: Key considerations include usability, learnability, efficiency, error prevention, and compatibility with the user’s physical and cognitive capabilities.
 <!--SR:!2025-03-14,39,264-->
 
 - **What’s the considerations when evaluating interaction techniques?** :: Evaluation considerations include task performance (speed and accuracy), user satisfaction, error rates, and the cognitive load imposed by the technique.
-<!--SR:!2025-03-05,35,264-->
+<!--SR:!2025-06-11,92,264-->
 
 - **What is integration in UIs?** :: Combining different systems or components into a unified interface.
 <!--SR:!2025-03-27,46,267-->
@@ -199,10 +199,10 @@ Event flow describes the order in which events are processed in the DOM. It cons
 <!--SR:!2025-04-28,78,284-->
 
 - **What is event delegation and how can you implement it?** :: Event delegation is a technique where a parent element handles events for its child elements by using a single event listener. This works by exploiting event bubbling. To implement it, attach a listener to the parent and use `event.target` to determine the child element that triggered the event.
-<!--SR:!2025-03-04,38,284-->
+<!--SR:!2025-08-08,150,304-->
 
 - **How do you use event listeners?** :: Event listeners are added using the `addEventListener` method, which takes the event type, a callback function, and an optional options object (e.g., `element.addEventListener('click', callback)`).
-<!--SR:!2025-03-06,40,290-->
+<!--SR:!2025-08-19,161,310-->
 
 - **What types of events can you react to in the browser?**
 ?
@@ -221,7 +221,7 @@ ____
 ## Week 38: Design Principles (A)
 
 - **What is an _error_?** :: An error in HCI refers to any user action that does not achieve the intended goal or results in unintended consequences. Errors typically occur due to a mismatch between the user’s intentions and the system’s behavior.
-<!--SR:!2025-02-24,34,279-->
+<!--SR:!2025-07-06,132,299-->
 
 - **What different types of _errors_ are there?**
 ?
@@ -268,13 +268,13 @@ ____
 ## Week 39: GUI Design (A)
 
 - **What are mental models?** :: Mental models are internal representations users form about how a system works based on their past experiences, knowledge, and the system’s behavior. They influence how users interact with an interface.
-<!--SR:!2025-03-03,40,299-->
+<!--SR:!2025-08-24,166,319-->
 
 - **What are metaphors?** :: Metaphors in GUI design are familiar concepts or images used to help users understand unfamiliar systems (e.g., the desktop metaphor for operating systems).
 <!--SR:!2025-04-30,72,279-->
 
 - **What are conceptual blends?** :: Conceptual blends combine elements from multiple mental spaces to create new meanings or experiences. In HCI, they help designers create innovative interfaces by blending existing concepts in new ways.
-<!--SR:!2025-02-21,25,239-->
+<!--SR:!2025-05-18,84,259-->
 
 - **What are inspectors in web development?** :: Inspectors are developer tools in web browsers used to examine and modify the HTML, CSS, and JavaScript of a webpage in real-time.
 <!--SR:!2025-04-16,65,311-->
@@ -286,7 +286,7 @@ ____
   3. **Balance**: Distribute visual weight evenly across the design.
   4. **Contrast**: Make key elements stand out by using differing properties (e.g., color, size).
   5. **Alignment**: Ensure elements are visually connected through proper alignment.
-<!--SR:!2025-02-20,22,199-->
+<!--SR:!2025-04-24,63,219-->
 
 ## Week 39: Responsive Web (B)
 
@@ -306,7 +306,7 @@ Media queries are used in CSS to apply styles conditionally based on device char
     }
   }
 ```
-<!--SR:!2025-02-27,33,279-->
+<!--SR:!2025-07-07,128,299-->
 
 
 - **What techniques are available in CSS to do fluid grids?**
@@ -314,7 +314,7 @@ Media queries are used in CSS to apply styles conditionally based on device char
 - Multicol: We specify the width of each column, and the maximum number of rows, and the content will be organized according to this.
 - Flexbox: For arranging items in rows or columns. Items _flex_ (expand) to fill additional space or shrink to fit into smaller spaces.
 - CSS grid: Declarative way to organize content into a grid.
-<!--SR:!2025-02-20,30,281-->
+<!--SR:!2025-06-16,116,301-->
 
 - **How do you implement fluid images**
 ?
@@ -326,7 +326,7 @@ img {
 }
 ```
 ___
-<!--SR:!2025-03-06,35,243-->
+<!--SR:!2025-06-06,87,243-->
 
 #flashcards/HCI/40  
 ## Week 40: Evaluations (A)
@@ -359,7 +359,7 @@ The levels include:
 <!--SR:!2025-05-05,77,280-->
 
 - **What are evaluations in HCI and why are they done?** :: Evaluations in HCI assess the usability, functionality, and user experience of a system. They are done to ensure that the system meets user needs, reduces errors, and improves overall satisfaction and efficiency.
-<!--SR:!2025-02-25,31,280-->
+<!--SR:!2025-06-26,121,300-->
 
 - **What is the difference between formative and summative evaluations?**
 ?
@@ -377,7 +377,7 @@ The levels include:
 ?
   - **Analytical evaluations**: Performed by experts using theoretical models or heuristics without involving users (e.g., heuristic evaluations, GOMS).
   - **Empirical evaluations**: Involve real users performing tasks to collect data on usability and user experience (e.g., usability testing, field studies).
-<!--SR:!2025-03-01,38,299-->
+<!--SR:!2025-08-06,158,319-->
 
 - **What is the difference between pilot studies and deployment studies?**
 ?
@@ -389,7 +389,7 @@ The levels include:
 ?
 - **Confirmatory questions**: Test specific hypotheses or predictions.
 - **Exploratory questions**: Seek to uncover new patterns or insights without predefined expectations.
-<!--SR:!2025-03-08,33,274-->
+<!--SR:!2025-06-09,90,274-->
 
 
 ____
@@ -398,13 +398,13 @@ ____
 ## Week 41: Evaluations 2 (A)
 
 - **What’s an experiment in HCI and when is it used?** :: An experiment in HCI is a controlled study designed to test specific hypotheses about user interaction with a system. It is used when researchers want to establish causal relationships between variables and evaluate the effects of specific interface designs or interaction techniques.
-<!--SR:!2025-02-25,28,244-->
+<!--SR:!2025-06-01,96,264-->
 
 - **Key concerns of experiments are validity and reliability. What are those and why those?**
 ?
   - **Validity**: Ensures that the experiment measures what it is intended to measure. High validity is essential to draw accurate conclusions.
   - **Reliability**: Refers to the consistency of results across repeated trials or different participants. Reliable experiments produce stable and reproducible outcomes.
-<!--SR:!2025-02-22,32,280-->
+<!--SR:!2025-06-29,125,300-->
 
 - **What are the constituents of an experiment?**
 ?
@@ -423,19 +423,19 @@ The main constituents of an experiment include:
 ?
   - **Independent variable**: The factor manipulated by the experimenter (e.g., font size).
   - **Dependent variable**: The outcome measured to see the effect of the independent variable (e.g., error rate).
-<!--SR:!2025-02-26,27,244-->
+<!--SR:!2025-06-02,93,264-->
 
 - **How are dependent variables selected?** :: Dependent variables are selected based on the goals of the experiment and the aspects of user interaction that need to be measured (e.g., task completion time, error rates, user satisfaction).
 <!--SR:!2025-04-20,67,280-->
 
 - **How are participants chosen?** :: Participants are chosen to represent the target user population. Selection methods include random sampling and stratified sampling to ensure diversity and reduce bias. 10-20 participants are usually chosen for HCI studies, although between-subject experiments require significantly more participants for getting solid results.
-<!--SR:!2025-02-18,16,242-->
+<!--SR:!2025-03-29,39,242-->
 
 - **How are results from experiments analysed?** :: Results are analyzed using statistical methods to determine whether changes in the independent variable caused significant effects on the dependent variable. This includes descriptive statistics, hypothesis testing, and confidence intervals.
 <!--SR:!2025-05-19,91,280-->
 
 - **What is a field study and how is it different from an experiment?** :: A field study involves observing and collecting data in real-world settings without controlling variables, while an experiment is conducted in a controlled environment with manipulated variables to test specific hypotheses.
-<!--SR:!2025-02-28,34,280-->
+<!--SR:!2025-07-12,133,300-->
 
 - **What is a within-subjects design?** :: An experimental design where the all participants are exposed to all conditions.
 <!--SR:!2025-04-15,65,287-->
@@ -461,13 +461,13 @@ ____
 ## Week 43: Understanding People (A)
 
 - **What does it mean to be human-centered?** :: Being human-centered means designing systems and interfaces that prioritize user needs, capabilities, and limitations. It involves focusing on usability, accessibility, and user satisfaction throughout the design process.
-<!--SR:!2025-02-28,34,283-->
+<!--SR:!2025-06-05,96,283-->
 
 - **What is perception and why is it relevant for HCI?** :: Perception is the process through which humans interpret sensory information. It is relevant for HCI because understanding how users perceive interfaces helps in designing intuitive and effective systems.
-<!--SR:!2025-02-18,29,281-->
+<!--SR:!2025-05-09,80,281-->
 
 - **What does the human sensor system consist of?** :: The human sensor system includes vision, hearing, touch, smell, and taste. In HCI, vision, hearing, and touch are most relevant for interacting with digital interfaces.
-<!--SR:!2025-03-02,39,303-->
+<!--SR:!2025-06-28,118,303-->
 
 - **What are the three central motor tasks?**
 ?
@@ -475,10 +475,10 @@ The three central motor tasks in HCI are:
   1. **Pointing**: Moving a cursor to a target.
   2. **Clicking**: Selecting an item.
   3. **Dragging**: Moving an object on the screen.
-<!--SR:!2025-02-18,27,259-->
+<!--SR:!2025-05-01,72,259-->
 
 - **What is Fitts’ law and what can it be used for?** :: Fitts' law predicts the time required to move to a target based on its size and distance. It is used in HCI to design interfaces that minimize user effort by optimizing target placement and size.
-<!--SR:!2025-03-09,43,301-->
+<!--SR:!2025-09-06,179,321-->
 
 - **What are the different reaction types?**
 ?
@@ -486,19 +486,19 @@ Reaction types include:
   1. **Simple reactions**: Responding to a single stimulus.
   2. **Choice reactions**: Choosing between multiple responses based on the stimulus.
   3. **Complex reactions**: Involving multiple stimuli and responses.
-<!--SR:!2025-02-23,22,203-->
+<!--SR:!2025-04-09,44,203-->
 
 - **What does the Ratcliff model explain?** :: The Ratcliff model explains decision-making in tasks that require speed and accuracy. It models how information accumulates over time until a decision threshold is reached.
-<!--SR:!2025-03-05,32,243-->
+<!--SR:!2025-06-27,108,263-->
 
 - **What does the Hick-Hyman law express?** :: The Hick-Hyman law states that the time it takes to make a decision increases logarithmically with the number of choices. It is relevant for interface design by emphasizing the need to reduce unnecessary options.
-<!--SR:!2025-03-03,37,281-->
+<!--SR:!2025-08-03,145,301-->
 
 - **What is cognitive control?** :: Cognitive control refers to the ability to regulate attention, manage tasks, and inhibit distractions. It is crucial in complex or multi-step interactions.
 <!--SR:!2025-03-31,42,220-->
 
 - **How do we measure cognitive workload?** :: Cognitive workload can be measured using subjective methods (e.g., NASA-TLX), physiological measures (e.g., heart rate, eye-tracking), and performance-based metrics (e.g., error rates, task completion time).
-<!--SR:!2025-02-20,23,241-->
+<!--SR:!2025-05-09,78,261-->
 
 - **What types of memory do we have and how do they differ?**
 ?
@@ -514,7 +514,7 @@ Reaction types include:
 ?
   1. **System 1**: Fast, automatic, and intuitive.
   2. **System 2**: Slow, deliberate, and analytical.
-<!--SR:!2025-02-26,32,263-->
+<!--SR:!2025-05-27,87,263-->
 
 - **What’s a mental model?** :: A mental model is a user’s internal representation of how a system works, based on their experience and understanding.
 <!--SR:!2025-05-21,98,303-->
@@ -535,7 +535,7 @@ The model human processor (MHP) is a framework that models human interaction as 
 <!--SR:!2025-04-22,70,261-->
 
 - **What is perceptual memory in MHP?** :: Perceptual memory acts as a buffer for sensor data, holding information briefly as it is processed.
-<!--SR:!2025-03-02,27,294-->
+<!--SR:!2025-05-19,78,294-->
 
 - **What are the limitations of MHP?** :: MHP assumes a linear and sequential process, which may oversimplify real-world interactions. It also doesn’t account for emotional and social factors.
 <!--SR:!2025-04-23,65,261-->
@@ -546,7 +546,7 @@ The recognize-act cycle involves:
 - Recognition: A highly parallel process for interpreting stimuli.
 - Act: A serial process for decision-making and response.
 - **(extra): Uncertainty Principle**: Decision time increases with uncertainty about judgments, requiring more cognitive cycles. Cycle time shortens with practice or increased effort.
-<!--SR:!2025-02-23,23,254-->
+<!--SR:!2025-04-24,59,254-->
 
 - **What is the motor system in MHP?** :: The motor system in MHP translates thought into physical actions, with cycle time diminishing with practice or task-specific effort.
 <!--SR:!2025-03-19,42,294-->
@@ -555,13 +555,13 @@ The recognize-act cycle involves:
 <!--SR:!2025-03-22,46,259-->
 
 - **What is self-determination theory, its assumptions and basic ideas?** :: Self-determination theory (SDT) posits that humans have three basic psychological needs: autonomy, competence, and relatedness. Fulfillment of these needs leads to intrinsic motivation, which is key to sustained user engagement.
-<!--SR:!2025-02-27,25,201-->
+<!--SR:!2025-04-19,49,201-->
 
 - **What is the perceptual task of detection?** :: The process of noticing the presence of a stimulus.
 <!--SR:!2025-05-10,82,287-->
 
 - **What is the perceptual task of discrimination?** :: The ability to distinguish between different stimuli.
-<!--SR:!2025-02-24,24,227-->
+<!--SR:!2025-05-14,79,247-->
 
 - **What is the perceptual task of recognition?** :: Identifying a stimulus as something familiar.
 <!--SR:!2025-03-18,43,267-->
@@ -581,13 +581,13 @@ The recognize-act cycle involves:
 <!--SR:!2025-04-20,70,281-->
 
 - **What is the principle of similarity, and how can it improve user experience?** :: The principle of similarity suggests that elements with similar characteristics (e.g., color, shape, size) are perceived as related. This principle helps users quickly identify and understand patterns, improving the consistency and clarity of an interface.
-<!--SR:!2025-02-27,33,283-->
+<!--SR:!2025-06-04,95,283-->
 
 - **What is the principle of figure-ground, and how can it enhance visual clarity?** :: The principle of figure-ground explains how people distinguish a foreground object from its background. Enhancing visual clarity involves ensuring sufficient contrast between key elements (figure) and the background, improving readability and focus.
 <!--SR:!2025-05-17,89,279-->
 
 - **What role does the principle of common fate play in dynamic interfaces?** :: The principle of common fate states that elements moving together are perceived as related. In dynamic interfaces, it is used to group elements through synchronized animations, such as buttons that slide together or lists that expand uniformly.
-<!--SR:!2025-03-11,45,303-->
+<!--SR:!2025-09-16,189,323-->
 
 
 ___
@@ -596,7 +596,7 @@ ___
 ## Week 44: Activity Theory (A)
 
 - **What is activity theory?** :: Activity theory is a conceptual framework that examines human activities as complex, socially situated processes, emphasizing the role of tools, goals, and social contexts in shaping human behavior.
-<!--SR:!2025-02-25,28,239-->
+<!--SR:!2025-05-28,92,259-->
 
 - **Why was activity theory brought into HCI?** :: Activity theory was introduced into HCI to address limitations of early cognitive models by emphasizing real-world contexts, user goals, and tool-mediated interactions. It provides a holistic approach to understanding how technology fits into users' workflows and social environments
 <!--SR:!2025-05-15,93,299-->
@@ -608,7 +608,7 @@ ___
   3. **Hierarchical structure**: Activities are organized into activities, actions, and operations.
   4. **Internalization and externalization**: Interaction involves transforming internal thought into external actions and vice versa.
   5. **Contradictions**: Development arises from resolving tensions or contradictions in activity systems.
-<!--SR:!2025-03-03,21,202-->
+<!--SR:!2025-04-22,42,202-->
 
 - **How is the hierarchical structure of activity explained?**
 ?
@@ -631,7 +631,7 @@ Activities are structured in a hierarchy:
 <!--SR:!2025-05-31,103,302-->
 
 - **What is a contradiction in activity theory?** :: A contradiction is a conflict within an activity system, such as a mismatch between a user’s expectations and a system’s behavior. These conflicts prompt change and drive development by forcing users and systems to adapt.
-<!--SR:!2025-02-24,28,259-->
+<!--SR:!2025-06-08,104,279-->
 
 ## Additional Questions on Activity Theory (Week 44)
 
@@ -640,43 +640,43 @@ Activities are structured in a hierarchy:
 <!--SR:!2025-04-02,52,259-->
 
 - **What is the unit of analysis in activity theory?** :: The fundamental unit of analysis in activity theory is the **activity**, which includes the subject, the object, and the mediating tools. This holistic approach allows for understanding the context and purpose behind human actions.
-<!--SR:!2025-03-02,39,299-->
+<!--SR:!2025-08-11,162,319-->
 
 - **How does activity theory address collaborative work?** :: Activity theory explains collaborative work by analyzing shared activities, where multiple subjects work toward a common object. The theory highlights the importance of communication, shared tools, and division of labor in achieving collective goals.
-<!--SR:!2025-03-01,38,299-->
+<!--SR:!2025-08-05,157,319-->
 
 - **What is the difference between actions and operations in activity theory?**
 ?
   - **Actions**: Conscious, goal-directed behaviors performed to achieve a specific objective.
   - **Operations**: Routine, automatic behaviors that are performed without conscious thought, often as part of an action. Operations can become actions when users encounter new challenges requiring conscious effort.
-<!--SR:!2025-02-23,33,279-->
+<!--SR:!2025-07-02,128,299-->
 
 - **What is the historical development principle in activity theory?** :: The historical development principle states that activities, tools, and social contexts evolve over time. Understanding current activities requires analyzing their historical development to see how they emerged and changed.
 <!--SR:!2025-04-23,71,259-->
 
 - **How is learning explained in activity theory?** :: Learning in activity theory is explained as a process of **internalization** and **externalization**. Individuals internalize knowledge through interaction with external tools and social practices, and they externalize their understanding by applying it in real-world tasks.
-<!--SR:!2025-02-28,34,259-->
+<!--SR:!2025-07-01,122,279-->
 
 - **How does activity theory handle contradictions in design?** :: Activity theory views contradictions as drivers of development and change. In design, contradictions arise when user needs conflict with system capabilities. Identifying and resolving these contradictions helps improve the system and better align it with user goals.
 <!--SR:!2025-03-12,46,299-->
 
 - **What is the significance of community in activity theory?** :: Community refers to the group of people who share a common object and influence the subject’s activities. Community members provide social norms, expectations, and support, all of which affect how an activity is carried out.
-<!--SR:!2025-03-08,39,259-->
+<!--SR:!2025-06-20,101,259-->
 
 - **What is the role of division of labor in activity theory?** :: Division of labor describes how tasks and responsibilities are distributed among participants in an activity. It highlights the interdependence of roles and the need for coordination in collaborative settings.
-<!--SR:!2025-03-08,42,299-->
+<!--SR:!2025-09-01,174,319-->
 
 - **What are the key components of an activity according to Activity Theory?** :: The key components are Subject, Object, Tools, Rules, Community, and Division of Labor.
-<!--SR:!2025-03-07,37,287-->
+<!--SR:!2025-06-24,105,287-->
 
 - **What is conceptualization in Activity Theory?** :: Conceptualization in Activity Theory involves understanding and framing tasks or activities in relation to their goals and the context in which they occur. It represents the mental process of defining and organizing the elements of an activity to achieve desired outcomes.
-<!--SR:!2025-02-22,24,266-->
+<!--SR:!2025-04-29,64,266-->
 
 - **What is automatization in Activity Theory?** :: Automatization refers to the transition of actions from being consciously controlled to becoming automatic or habitual through practice and repetition.
-<!--SR:!2025-02-22,26,286-->
+<!--SR:!2025-06-07,103,306-->
 
 - **How do we move up and down the hierarchical ladder of activities in Activity Theory?** :: Movement up the ladder involves breaking down automated actions into consciously controlled steps for reevaluation or learning. Movement down the ladder happens when conscious actions are practiced and refined into automated routines.
-<!--SR:!2025-02-21,25,286-->
+<!--SR:!2025-06-03,99,306-->
 
 - **What is an instrument-producing activity?** :: An instrument-producing activity refers to creating tools or artifacts that mediate and enhance other activities.
 <!--SR:!2025-04-18,67,313-->
@@ -708,7 +708,7 @@ Broad categories of disabilities include:
 ?
   - **Internationalization**: The process of designing software so it can be adapted to different languages and regions without requiring changes to the codebase.
   - **Localization**: The process of adapting software for a specific language, culture, or region by translating text and adjusting formats (e.g., date, currency).
-<!--SR:!2025-03-05,37,264-->
+<!--SR:!2025-07-26,137,284-->
 
 ## Week 45: Usability (A)
 
@@ -733,7 +733,7 @@ Internationalization on the web can be implemented by:
   3. Storing content separately from its presentation to facilitate translation.
   4. Allowing users to select their preferred language and region.
   5. Designing layouts that accommodate text expansion in different languages.
-<!--SR:!2025-02-26,29,244-->
+<!--SR:!2025-05-11,71,244-->
 
 
 ___
@@ -742,7 +742,7 @@ ___
 ## Week 46: Data Visualization (A)
 
 - **What is data visualization?** :: Data visualization is the graphical representation of information and data. It uses visual elements like charts, graphs, and maps to make complex data more accessible, understandable, and usable for analysis and decision-making.
-<!--SR:!2025-03-09,43,301-->
+<!--SR:!2025-07-18,129,301-->
 
 - **What are examples of historical visualization techniques? (Minard, John Snow, Nightingale, etc.)**
 ?
@@ -765,10 +765,7 @@ ___
 ## Week 46: JavaScript Front-end Frameworks (B)
 
 - **What is a JavaScript framework for front-end development?** :: A JavaScript framework for front-end development is a library that provides pre-built components and structures for building web applications. Examples include Vue.js, React, and Angular, which help manage user interfaces and application state efficiently.
-<!--SR:!2025-02-19,30,281-->
-
-- **Why would you use a JavaScript framework like Vue.js?** :: Vue.js simplifies front-end development by offering reactive data binding, component-based architecture, and built-in directives. It speeds up development, improves maintainability, and makes it easier to build interactive UIs.
-<!--SR:!2025-03-01,31,241-->
+<!--SR:!2025-06-17,117,301-->
 
 ____
 
@@ -781,13 +778,12 @@ ____
 - **How did interaction with early computers happen and how did it evolve?** :: Interaction with early computers happened through punch cards and command-line interfaces. Over time, it evolved to include graphical user interfaces (GUIs), direct manipulation (using a mouse), and touch-based interaction, making computers easier to use.
 <!--SR:!2025-06-05,108,304-->
 
-- **When were some of the ideas we now take for granted first presented (pointing, hypertext, collaborative editing, video communication)?**
+- **What were some of the ideas we now take for granted that was introduced by Douglas Engelbart in his 1968 _Mother of All Demos?_**
 ?
   1. **Pointing devices**: Introduced by Douglas Engelbart in 1968 (mouse demonstration).
-  2. **Hypertext**: Concept introduced by Vannevar Bush in 1945 (“Memex”), and later implemented by Ted Nelson and Engelbart.
-  3. **Collaborative editing**: Demonstrated in Engelbart’s 1968 "Mother of All Demos".
-  4. **Video communication**: Also part of Engelbart’s 1968 demonstration, envisioning future collaborative work environments.
-<!--SR:!2025-02-18,22,244-->
+  2. **Collaborative editing**: Demonstrated in Engelbart’s 1968 "Mother of All Demos".
+  3. **Video communication**: Also part of Engelbart’s 1968 demonstration, envisioning future collaborative work environments.
+<!--SR:!2025-04-13,54,244-->
 
 - **Where was the personal computer invented, and what vision drove its development?** :: The personal computer was developed at Xerox PARC in the 1970s, driven by the vision of empowering individuals through personal, graphical, and interactive computing environments.
 <!--SR:!2025-04-27,76,281-->
@@ -818,7 +814,7 @@ Interaction with computers can be characterized by the following phases:
 <!--SR:!2025-03-26,37,201-->
 
 - **How did Myer’s article characterize the evolution of HCI technology?** :: Myer’s article outlines the evolution of HCI in stages, starting from **batch processing systems**, moving through **command-line interfaces**, and finally arriving at **graphical user interfaces (GUIs)**. He highlights key technological milestones and innovations that transformed user interaction, such as windows, icons, and pointing devices.
-<!--SR:!2025-03-07,31,221-->
+<!--SR:!2025-05-16,66,221-->
 
 - **What innovations were introduced at Xerox PARC, and how did they shape modern computing?**
 ?
@@ -872,7 +868,7 @@ UCD is an iterative design process that focuses on understanding user needs at e
   2. **Prototyping solutions** based on those requirements.
   3. **Evaluating prototypes** with users.
   4. **Refining the design** based on feedback.
-<!--SR:!2025-02-23,27,259-->
+<!--SR:!2025-06-01,97,279-->
 
 - **How does activity theory differ from cognitive theories in HCI?** :: While cognitive theories focus on individual mental processes, activity theory emphasizes the social, cultural, and contextual factors that shape human interaction. Activity theory views actions as part of larger goal-directed activities mediated by tools, whereas cognitive theories often model isolated tasks.
 <!--SR:!2025-03-26,48,259-->
@@ -890,7 +886,7 @@ A mode error occurs when a user performs an action appropriate to one mode while
 <!--SR:!2025-05-11,85,281-->
 
 - **What is the role of iteration in the design process?** :: Iteration is crucial in the design process because it allows designers to continuously refine and improve a product based on user feedback and testing. This approach ensures that the final design meets user needs effectively.
-<!--SR:!2025-03-02,39,302-->
+<!--SR:!2025-08-12,163,322-->
 
 - **How can the application of Gestalt principles enhance the learnability of an interface?** :: Gestalt principles help users quickly perceive relationships between elements by leveraging natural human tendencies for grouping and pattern recognition. This reduces the time required to learn and understand an interface.
 <!--SR:!2025-05-12,86,279-->
@@ -902,5 +898,5 @@ A mode error occurs when a user performs an action appropriate to one mode while
 <!--SR:!2025-03-18,47,264-->
 
 - **Why is it important to balance usability and aesthetics in interface design?** :: While usability ensures that an interface is functional and easy to use, aesthetics contribute to user satisfaction and engagement. A well-designed interface balances both aspects, making the product not only efficient but also enjoyable to use.
-<!--SR:!2025-03-03,40,301-->
+<!--SR:!2025-07-10,121,301-->
 
